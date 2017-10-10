@@ -33,6 +33,7 @@ class Pau2MotorsNode:
 
   def __init__(self):
     self.subs = []
+    rospy.set_param('~reload', True)
 
   def _handle_pau_cmd(self, msg, pau2motors):
     pau2motors.consume(msg)
