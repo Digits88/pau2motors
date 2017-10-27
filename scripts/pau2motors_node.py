@@ -71,7 +71,7 @@ class Pau2MotorsNode:
       pau2motors_config = rospy.get_param("pau2motors", None)
       motors = rospy.get_param("motors", None)
       if pau2motors_config and motors:
-        pau2motors_config["motors"] = dict([i["name"],i] for i in motors)
+        pau2motors_config["motors"] = motors
         self._build_msg_pipe(pau2motors_config)
       logger.info("Reload motor configurations")
       config.reload = False
