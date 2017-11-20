@@ -1,13 +1,13 @@
 Dynamixel and pololu values have corresponding angle in degrees next to them
 The angles are defined as they appear on Blender
 
-JointStore        Mengna             Bl.Axis  ID  Dyn.min  Dyn.max  Dyn.init  Pol.min  Pol.max  Pol.init  Bl.min    Bl.max    Bl.init  desc.
-R_Shoulder_Pitch  Shoulder_R         X        8   1292     3390     1260                                  -10(rst)  80(fwd)   -10      walking swing
-R_Shoulder_Roll   Shoulder_R         Z        9   1233     3260     3080                                  86(sid)   -4(rst)   -4       flapping
-R_Shoulder_Yaw    Arm_Twist_R        Y        10  186      3800     2130                                  -31(cls)  62(opn)   -26
-R_Elbow           Elbow_R            X        11  1000     3870     2240                                  36(con)   -84(str)  -84
-R_Wrist_Yaw       Forearm_Twist_R    Y        12  640      3600     1940                                  175(opn)  40(bck)   100 
-R_Wrist_Roll      Wrist_R            Z        7                               704      1808     1364      -67(out)  30(in)    -5
+JointStore        Mengna             Bl.Axis  ID  Dyn.min  Dyn.max  Dyn.init  Pol.min  Pol.max  Pol.init  Bl.min    Bl.max    Bl.init  May.min  May.max  desc.
+R_Shoulder_Pitch  Shoulder_R         X        8   1292     3390     1260                                  -10(rst)  80(fwd)   -10      Y10      Y-80     walking swing
+R_Shoulder_Roll   Shoulder_R         Z        9   1233     3260     3080                                  86(sid)   -4(rst)   -4       Z-86     Z4       flapping
+R_Shoulder_Yaw    Arm_Twist_R        Y        10  186      3800     2130                                  -31(cls)  62(opn)   -26      X-31     X62
+R_Elbow           Elbow_R            X        11  1000     3870     2240                                  36(con)   -84(str)  -84      Y36      Y84
+R_Wrist_Yaw       Forearm_Twist_R    Y        12  640      3600     1940                                  175(opn)  40(bck)   100      X85      X-50
+R_Wrist_Roll      Wrist_R            Z        7                               704      1808     1364      -67(out)  30(in)    -5       Z60      Z-30
 R_Index_Finger    Index_Fing_Base_R  X        0                               704      1936     966       -1(out)   50(in)    21
 R_Middle_Finger   Mid_Base_R         X        1                               960      2208     2000      26(in)    75(out)   62
 R_Ring_Finger     Ring_Base_R        X        2                               976      2128     1193      84(out)   25(in)    58
