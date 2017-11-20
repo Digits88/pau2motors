@@ -9,8 +9,8 @@ except NameError:
     xrange = range
 
 _joint_list = ['R_Shoulder_Pitch','R_Shoulder_Roll','R_Shoulder_Yaw','R_Elbow','R_Wrist_Yaw','R_Wrist_Roll','R_Index_Finger','R_Middle_Finger',
-'R_Ring_Finger','R_Pinky_Finger','R_Thumb_Finger','R_Thumb_Roll','L_Shoulder_Pitch','L_Shoulder_Roll','L_Shoulder_Yaw','L_Elbow','L_Wrist_Yaw',
-'L_Wrist_Roll','L_Index_Finger','L_Middle_Finger','L_Ring_Finger','L_Pinky_Finger','L_Thumb_Finger','L_Thumb_Roll']
+'R_Ring_Finger','R_Pinky_Finger','R_Thumb_Finger','R_Thumb_Roll','R_Spreading','L_Shoulder_Pitch','L_Shoulder_Roll','L_Shoulder_Yaw','L_Elbow','L_Wrist_Yaw',
+'L_Wrist_Roll','L_Index_Finger','L_Middle_Finger','L_Ring_Finger','L_Pinky_Finger','L_Thumb_Finger','L_Thumb_Roll','L_Spreading']
 
 
 def _build_index(lst):
