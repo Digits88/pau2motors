@@ -7,7 +7,7 @@ import atexit
 import rospy
 import math
 
-from pau2motors.msg import pau
+from hr_msgs.msg import pau
 from std_msgs.msg import Float64
 from testing_tools.misc import wait_for, MessageQueue
 

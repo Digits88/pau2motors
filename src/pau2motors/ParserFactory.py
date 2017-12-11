@@ -1,5 +1,6 @@
 import Utils
 import ShapekeyStore
+import JointStore
 
 class ParserBase:
   """
@@ -46,10 +47,23 @@ class FsShapeKey(GetProperty):
       ]),
       args["shapekey"].split(";")
     )
-    
+
+class ArmsAngles(GetProperty):
+  """Construct GetProperty parser from an angle name (joint)."""
+
+  def __init__(self,args):
+    self.keychains = map(
+      lambda joint: Utils.DictKeyChain([
+        "m_angles",
+        JointStore.getIndex(joint)
+      ]),
+      args["joint"].split(";")
+    )
+
 _parser_classes = {
   "getproperty": GetProperty,
-  "fsshapekey": FsShapeKey
+  "fsshapekey": FsShapeKey,
+  "armsangles": ArmsAngles
 }
 
 def build(yamlobj):

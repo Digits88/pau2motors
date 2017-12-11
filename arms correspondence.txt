@@ -1,0 +1,28 @@
+Dynamixel and pololu values have corresponding angle in degrees next to them
+The angles are defined as they appear on Blender
+
+JointStore        Mengna             Bl.Axis  ID  Dyn.min  Dyn.max  Dyn.init  Pol.min  Pol.max  Pol.init  Bl.min    Bl.max    Bl.init  May.min  May.max  desc.
+R_Shoulder_Pitch  Shoulder_R         X        8   1292     3390     1260                                  -10(rst)  80(fwd)   -10      Y10      Y-80     walking swing
+R_Shoulder_Roll   Shoulder_R         Z        9   1233     3260     3080                                  86(sid)   -4(rst)   -4       Z-86     Z4       flapping
+R_Shoulder_Yaw    Arm_Twist_R        Y        10  186      3800     2130                                  -31(cls)  62(opn)   -26      X-31     X62
+R_Elbow           Elbow_R            X        11  1000     3870     2240                                  36(con)   -84(str)  -84      Y36      Y84
+R_Wrist_Yaw       Forearm_Twist_R    Y        12  640      3600     1940                                  175(opn)  40(bck)   100      X85      X-50
+R_Wrist_Roll      Wrist_R            Z        7                               704      1808     1364      -67(out)  30(in)    -5       Z60      Z-30
+R_Index_Finger    Index_Fing_Base_R  X        0                               704      1936     966       -1(out)   50(in)    21
+R_Middle_Finger   Mid_Base_R         X        1                               960      2208     2000      26(in)    75(out)   62
+R_Ring_Finger     Ring_Base_R        X        2                               976      2128     1193      84(out)   25(in)    58
+R_Pinky_Finger    Pinky_Base_R       X        3                               992      2144     2021      26(in)    95(out)   77
+R_Thumb_Finger    Thumb_Base_R       X        4                               704      2080     1679      38(in)    -26(out)  14
+R_Thumb_Roll      Thumb_Pivot_R      Y        5                               944      2208     1950      75(opp)   -21(flt)  23
+L_Shoulder_Pitch  Shoulder_L         X        13  1100     3040     3040                                  79(fwd)   -10(rst)  -10
+L_Shoulder_Roll   Shoulder_L         Z        14  380      2303     420                                   -4(rst)   87(sid)   -4
+L_Shoulder_Yaw    Arm_Twist_L        Y        15  100      4000     1990                                  -62(opn)  31(cls)   26
+L_Elbow           Elbow_L            X        16  500      3330     3330                                  -84(str)  36(con)   -84
+L_Wrist_Yaw       Forearm_Twist_L    Y        17  370      3630     2060                                  -40(bck)  -175(opn) -100
+L_Wrist_Roll      Wrist_L            Z        4                               852      2096     1386      -30(in)   67(out)   5
+L_Index_Finger    Index_Fing_Base_L  X        11                              896      1984     1845      65(in)    -11(out)  1
+L_Middle_Finger   Mid_Base_L         X        10                              752      2000     915       76(out)   21(in)    63
+L_Ring_Finger     Ring_Base_L        X        9                               784      2000     1830      15(in)    90(out)   71
+L_Pinky_Finger    Pinky_Base_L       X        8                               864      2096     1207      82(out)   23(in)    70
+L_Thumb_Finger    Thumb_Base_L       X        7                               920      2144     997       -36(out)  9(in)     -31
+L_Thumb_Roll      Thumb_Pivot_L      Y        6                               1024     2208     1227      -4(flt)   -78(opp)  -11
