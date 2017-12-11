@@ -126,7 +126,6 @@ class Linear(MapperBase):
       self.pretranslate = -args['min']
       self.scale = (motor_entry['max']-motor_entry['min'])/(args['max']-args['min'])
       self.posttranslate = motor_entry['min']
-      print("motor_entry min {} max {} args min {} max {} pretranslate {} scale {} posttranslate".format(motor_entry['min'],motor_entry['max'],args['min'],args['max'],self.pretranslate,self.scale,self.posttranslate))
 
 # --------------------------------------------------------------
 
